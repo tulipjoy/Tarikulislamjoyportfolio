@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Md. Tarikul Islam Joy | CSE Graduate and Aspiring AI Researcher</title>
+  <meta name="description" content="Portfolio of Md. Tarikul Islam Joy, a Computer Science and Engineering graduate working on deep learning for medical image classification.">
+  <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('theme'); } catch (e) {}
+      if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="top" id="topbar">
+    <div class="wrap top-inner">
+      <a class="brand" href="#top"><span class="brand-mark">TJ</span><span class="brand-text">Tarikul Islam Joy</span></a>
+      <nav id="nav" aria-label="Main">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="Switch to dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+      <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="hero-glow g1" aria-hidden="true"></div>
+      <div class="hero-glow g2" aria-hidden="true"></div>
+      <div class="hero-glow g3" aria-hidden="true"></div>
+      <div class="wrap hero-inner">
+        <div class="hero-text">
+          <p class="badge"><span class="pulse" aria-hidden="true"></span>Open to master's programme admissions</p>
+          <p class="hi">Hello, I'm</p>
+          <h1>Md. Tarikul Islam&nbsp;Joy</h1>
+          <p class="roles"><span id="typed">CSE Graduate</span><span class="caret" aria-hidden="true"></span></p>
+          <p class="lede">I train deep learning models to read medical images, and I want to grow that work into research on safe, efficient AI for healthcare.</p>
+          <div class="actions">
+            <a class="btn primary" href="assets/Tarikul_Islam_Joy_CV.pdf" download>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 11l5 5 5-5M5 21h14"/></svg>
+              Download CV
+            </a>
+            <a class="btn ghost" href="#contact">Get in touch</a>
+          </div>
+          <ul class="quick">
+            <li>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>
+              Dhaka, Bangladesh
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+              <a href="mailto:bejoy2596@gmail.com">bejoy2596@gmail.com</a>
+            </li>
+          </ul>
+          <ul class="social" aria-label="Social links">
+            <li><a class="soc li" href="https://bd.linkedin.com/in/md-tarikul-islam-joy-11685a320" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg><span>LinkedIn</span></a></li>
+            <li><a class="soc fb" href="https://www.facebook.com/share/19uuJafwxY/" target="_blank" rel="noopener noreferrer" aria-label="Facebook profile"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg><span>Facebook</span></a></li>
+            <li><a class="soc ml" href="mailto:bejoy2596@gmail.com" aria-label="Send an email"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg><span>Email</span></a></li>
+          </ul>
+        </div>
+
+        <div class="hero-photo">
+          <div class="halo" aria-hidden="true"></div>
+          <div class="spin-ring" aria-hidden="true"></div>
+          <div class="orbit o1" aria-hidden="true"></div>
+          <div class="orbit o2" aria-hidden="true"></div>
+          <span class="deco d1" aria-hidden="true"></span>
+          <span class="deco d2" aria-hidden="true"></span>
+          <span class="deco d3" aria-hidden="true"></span>
+          <span class="deco d4" aria-hidden="true"></span>
+          <img class="cutout" src="assets/photo-cutout.webp" alt="Portrait of Md. Tarikul Islam Joy" width="840" height="969" fetchpriority="high">
+          <span class="float f1">Deep learning</span>
+          <span class="float f2">Medical imaging</span>
+          <span class="float f3">AI for healthcare</span>
+          <div class="glass">
+            <span class="glass-ico">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></svg>
+            </span>
+            <span><strong>B.Sc. in CSE</strong><small>Daffodil International University</small></span>
+          </div>
+        </div>
+      </div>
+      </section>
+
+    <!-- STATS -->
+    <section class="wrap stats" aria-label="Highlights">
+      <div class="stat">
+        <p class="num"><span class="count" data-to="3.33" data-dec="2">3.33</span><small>/4.00</small></p>
+        <p class="cap">B.Sc. CGPA</p>
+      </div>
+      <div class="stat">
+        <p class="num"><span class="count" data-to="4.52" data-dec="2">4.52</span><small>/5.00</small></p>
+        <p class="cap">HSC GPA</p>
+      </div>
+      <div class="stat">
+        <p class="num"><span class="count" data-to="6.5" data-dec="1">6.5</span></p>
+        <p class="cap">IELTS overall band</p>
+      </div>
+      <div class="stat">
+        <p class="num">2024</p>
+        <p class="cap">Cricket champions, private universities</p>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="wrap">
+        <div class="head reveal">
+          <h2>About me</h2>
+          <p>A graduate who likes AI that actually helps people.</p>
+        </div>
+        <div class="about-grid">
+          <div class="prose reveal">
+            <p>I recently graduated with a B.Sc. in Computer Science and Engineering from Daffodil International University. My academic project applied deep learning to classify kidney disease from medical images, and it showed me how much useful work sits where AI meets medicine.</p>
+            <p>Now I am applying for a master's programme to build a proper research foundation in agentic AI, AI safety and explainability, efficient on-device AI, and AI for healthcare.</p>
+            <p>Away from the screen I play cricket. In 2024 I was vice-captain and the highest scorer of the team that won the championship among private universities.</p>
+          </div>
+          <dl class="facts reveal">
+            <div><dt>Location</dt><dd>Dhaka, Bangladesh</dd></div>
+            <div><dt>Degree</dt><dd>B.Sc. in Computer Science and Engineering</dd></div>
+            <div><dt>University</dt><dd>Daffodil International University</dd></div>
+            <div><dt>Looking for</dt><dd>A master's programme in AI</dd></div>
+            <div><dt>Language</dt><dd>English, IELTS 6.5</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section alt" id="education">
+      <div class="wrap">
+        <div class="head reveal">
+          <h2>Education</h2>
+          <p>Where I studied.</p>
+        </div>
+        <div class="edu">
+          <article class="card edu-card reveal">
+            <span class="ico"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 2 9 2 12 0v-5"/></svg></span>
+            <div>
+              <h3>B.Sc. in Computer Science and Engineering</h3>
+              <p class="sub">Daffodil International University, Bangladesh</p>
+              <p class="pill">CGPA 3.33 / 4.00</p>
+              <p class="status-tag">Graduated</p>
+            </div>
+          </article>
+          <article class="card edu-card reveal">
+            <span class="ico"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></svg></span>
+            <div>
+              <h3>Higher Secondary Certificate (HSC)</h3>
+              <p class="sub">Sirajganj Government College, Bangladesh</p>
+              <p class="pill">GPA 4.52 / 5.00</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT -->
+    <section class="section" id="project">
+      <div class="wrap">
+        <div class="head reveal">
+          <h2>Academic project</h2>
+          <p>Deep learning for kidney disease classification.</p>
+        </div>
+        <div class="project reveal">
+          <div class="project-text">
+            <h3>Integrated Approaches for Accurate Kidney Disease Classification: Leveraging Pre-trained Models and Custom CNN Architectures</h3>
+            <ul class="check">
+              <li>Undergraduate project on classifying kidney disease from medical images using deep learning.</li>
+              <li>Combined pre-trained models with custom-designed convolutional neural network (CNN) architectures.</li>
+              <li>Connects directly to my interests in healthcare and in efficient, reliable AI.</li>
+            </ul>
+            <ul class="tags" aria-label="Topics">
+              <li>Deep learning</li>
+              <li>Medical imaging</li>
+              <li>Pre-trained models</li>
+              <li>Custom CNN</li>
+            </ul>
+          </div>
+          <figure class="demo">
+            <div class="demo-grid">
+              <div>
+                <canvas id="scanIn" aria-hidden="true"></canvas>
+                <span class="demo-label">Input scan</span>
+              </div>
+              <div>
+                <canvas id="scanOut" aria-hidden="true"></canvas>
+                <span class="demo-label">Feature map</span>
+              </div>
+            </div>
+            <figcaption>A 3×3 kernel sliding over an image to find edges. Convolution is the core operation inside CNN models.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section class="section alt" id="research">
+      <div class="wrap">
+        <div class="head reveal">
+          <h2>Research interests</h2>
+          <p>The questions I want to work on.</p>
+        </div>
+        <div class="grid4">
+          <article class="card topic reveal">
+            <span class="ico"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 2v2M15 2v2M9 20v2M15 20v2M2 9h2M2 15h2M20 9h2M20 15h2"/></svg></span>
+            <h3>Agentic AI and autonomous systems</h3>
+            <p>Systems that can plan, decide and act on their own.</p>
+          </article>
+          <article class="card topic reveal">
+            <span class="ico"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></span>
+            <h3>AI safety, ethics and explainability</h3>
+            <p>Making model behaviour understandable and trustworthy.</p>
+          </article>
+          <article class="card topic reveal">
+            <span class="ico"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></span>
+            <h3>Efficient and on-device AI</h3>
+            <p>Models that run well on small, local hardware.</p>
+          </article>
+          <article class="card topic reveal">
+            <span class="ico"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg></span>
+            <h3>Healthcare and medicine</h3>
+            <p>AI that supports clinical work, starting with medical imaging.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="wrap">
+        <div class="head reveal">
+          <h2>Technical skills</h2>
+          <p>The areas I work in.</p>
+        </div>
+        <!-- Tip: replace or extend these with the exact languages and tools you use, e.g. Python, PyTorch, Git -->
+        <ul class="skills">
+          <li class="reveal">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>
+            Programming and scripting
+          </li>
+          <li class="reveal">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 7V4H6l6 8-6 8h12v-3"/></svg>
+            Mathematical and theoretical foundations
+          </li>
+          <li class="reveal">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="6" rx="1.5"/><rect x="3" y="14" width="18" height="6" rx="1.5"/><path d="M7 7h.01M7 17h.01"/></svg>
+            Systems and infrastructure tools
+          </li>
+          <li class="reveal">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg>
+            Research and academic writing
+          </li>
+          <li class="reveal">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 2v2M15 2v2M9 20v2M15 20v2M2 9h2M2 15h2M20 9h2M20 15h2"/></svg>
+            Artificial intelligence
+          </li>
+          <li class="reveal">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="8" width="16" height="12" rx="3"/><path d="M12 8V4M9 4h6M9 13h.01M15 13h.01M9 17h6"/></svg>
+            AI and automation
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- BEYOND -->
+    <section class="section alt" id="beyond">
+      <div class="wrap">
+        <div class="head reveal">
+          <h2>Beyond the degree</h2>
+          <p>Field exposure, competitions and sport.</p>
+        </div>
+        <div class="grid3">
+          <article class="card topic reveal">
+            <span class="ico"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></span>
+            <h3>Practical exposure and competitions</h3>
+            <ul class="plain">
+              <li>Field visits to power stations across Bangladesh, gaining exposure to power generation and energy infrastructure.</li>
+              <li>Hands-on competitions and projects on renewable energy and smart grid systems.</li>
+            </ul>
+          </article>
+          <article class="card topic reveal">
+            <span class="ico"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0V4zM17 5h3v2a3 3 0 0 1-3 3M7 5H4v2a3 3 0 0 0 3 3"/></svg></span>
+            <h3>Achievements</h3>
+            <ul class="plain">
+              <li>Vice-captain of the championship-winning team and highest scorer, Cricket 2024, among private universities.</li>
+            </ul>
+          </article>
+          <article class="card topic reveal">
+            <span class="ico"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></span>
+            <h3>Language</h3>
+            <ul class="plain">
+              <li>English: IELTS overall band score 6.5</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="hero-glow g1" aria-hidden="true"></div>
+      <div class="wrap contact-inner">
+        <div class="contact-text">
+          <h2>Let's talk</h2>
+          <p>For admissions, research collaboration or project work, write to me directly.</p>
+          <p class="where">Dhaka, Bangladesh</p>
+          <div class="connect">
+            <a class="ccard li" href="https://bd.linkedin.com/in/md-tarikul-islam-joy-11685a320" target="_blank" rel="noopener noreferrer">
+              <span class="cico"><svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></span>
+              <span class="ctext"><strong>LinkedIn</strong><small>Connect with me professionally</small></span>
+            </a>
+            <a class="ccard fb" href="https://www.facebook.com/share/19uuJafwxY/" target="_blank" rel="noopener noreferrer">
+              <span class="cico"><svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></span>
+              <span class="ctext"><strong>Facebook</strong><small>Follow me and say hello</small></span>
+            </a>
+            <a class="ccard ml" href="mailto:bejoy2596@gmail.com">
+              <span class="cico"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
+              <span class="ctext"><strong>Email</strong><small>bejoy2596@gmail.com</small></span>
+            </a>
+          </div>
+        </div>
+        <form id="contactForm" novalidate>
+          <div class="row">
+            <label>Your name
+              <input type="text" id="cName" name="name" autocomplete="name" required>
+            </label>
+            <label>Your email
+              <input type="email" id="cEmail" name="email" autocomplete="email" required>
+            </label>
+          </div>
+          <label>Message
+            <textarea id="cMsg" name="message" rows="5" required></textarea>
+          </label>
+          <div class="form-foot">
+            <button class="btn primary" type="submit">Open in email app</button>
+            <p class="form-note" id="formNote" role="status"></p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap">
+      <p>&copy; <span id="year"></span> Md. Tarikul Islam Joy</p>
+      <div class="foot-social">
+        <a href="https://bd.linkedin.com/in/md-tarikul-islam-joy-11685a320" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+        <a href="https://www.facebook.com/share/19uuJafwxY/" target="_blank" rel="noopener noreferrer" aria-label="Facebook profile"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+        <a href="mailto:bejoy2596@gmail.com" aria-label="Send an email"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></a>
+      </div>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
